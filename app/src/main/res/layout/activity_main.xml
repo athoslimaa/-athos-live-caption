@@ -8,12 +8,12 @@
         android:text="ATHOS LIVE CAPTION" android:textColor="@color/white"
         android:textStyle="bold" android:textSize="30sp" />
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:layout_marginTop="8dp" android:text="MVP 0.1 • Diagnóstico para Fire OS 7"
+        android:layout_marginTop="8dp" android:text="MVP 0.3 • Teste visual para Fire OS 7"
         android:textColor="@color/accent" android:textSize="16sp" />
 
     <TextView android:id="@+id/statusText" android:layout_width="620dp"
         android:layout_height="wrap_content" android:layout_marginTop="30dp"
-        android:gravity="center" android:text="Pronto para testar a sobreposição e a entrada de áudio."
+        android:gravity="center" android:text="Pronto para testar a faixa visual sem Acessibilidade."
         android:textColor="@color/white" android:textSize="19sp" />
 
     <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
