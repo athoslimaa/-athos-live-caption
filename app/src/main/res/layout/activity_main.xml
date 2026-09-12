@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:padding="42dp" android:background="@color/background">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="ATHOS LIVE CAPTION" android:textColor="@color/white"
+        android:textStyle="bold" android:textSize="30sp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:text="MVP 0.1 • Diagnóstico para Fire OS 7"
+        android:textColor="@color/accent" android:textSize="16sp" />
+
+    <TextView android:id="@+id/statusText" android:layout_width="620dp"
+        android:layout_height="wrap_content" android:layout_marginTop="30dp"
+        android:gravity="center" android:text="Pronto para testar a sobreposição e a entrada de áudio."
+        android:textColor="@color/white" android:textSize="19sp" />
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginTop="30dp">
+        <Button android:id="@+id/startButton" android:layout_width="250dp"
+            android:layout_height="wrap_content" android:background="@drawable/button_primary"
+            android:text="INICIAR TESTE" android:textColor="#06111E" android:textStyle="bold"
+            android:textSize="17sp" android:focusable="true" />
+        <Button android:id="@+id/stopButton" android:layout_width="250dp"
+            android:layout_height="wrap_content" android:layout_marginStart="18dp"
+            android:background="@drawable/button_secondary" android:text="PARAR"
+            android:textColor="@color/white" android:textStyle="bold" android:textSize="17sp"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <TextView android:layout_width="650dp" android:layout_height="wrap_content"
+        android:layout_marginTop="28dp" android:gravity="center"
+        android:text="Depois de iniciar, abra YouTube, FloGrappling ou IPTV. A faixa de diagnóstico deve continuar visível sobre o vídeo."
+        android:textColor="@color/muted" android:textSize="15sp" />
+</LinearLayout>
