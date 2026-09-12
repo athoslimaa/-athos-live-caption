@@ -31,12 +31,12 @@ jobs:
         run: gradle --no-daemon :app:assembleDebug
 
       - name: Rename APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk AthosLiveCaption-MVP-0.1.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk AthosLiveCaption-MVP-0.2.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: AthosLiveCaption-MVP-0.1
-          path: AthosLiveCaption-MVP-0.1.apk
+          name: AthosLiveCaption-MVP-0.2
+          path: AthosLiveCaption-MVP-0.2.apk
           if-no-files-found: error
           retention-days: 30

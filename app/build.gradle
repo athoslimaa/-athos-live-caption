@@ -10,8 +10,8 @@ android {
         applicationId 'com.athostech.livecaption'
         minSdk 28
         targetSdk 28
-        versionCode 1
-        versionName '0.1.0-probe'
+        versionCode 2
+        versionName '0.2.0-accessibility-probe'
     }
 
     buildTypes {
