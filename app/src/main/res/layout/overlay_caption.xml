@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="vertical" android:gravity="center"
+    android:background="@drawable/overlay_background">
+    <TextView android:id="@+id/overlayTitle" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="ATHOS LIVE CAPTION • TESTE"
+        android:textColor="@color/accent" android:textStyle="bold" android:textSize="14sp" />
+    <TextView android:id="@+id/overlayStatus" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="4dp"
+        android:text="Aguardando áudio…" android:textColor="@color/white"
+        android:textStyle="bold" android:textSize="22sp" />
+    <TextView android:id="@+id/overlayLevel" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="2dp"
+        android:text="Nível: 0%" android:textColor="@color/muted" android:textSize="13sp" />
+</LinearLayout>
