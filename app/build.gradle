@@ -1,0 +1,23 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.athostech.livecaption'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.athostech.livecaption'
+        minSdk 28
+        targetSdk 28
+        versionCode 1
+        versionName '0.1.0-probe'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
